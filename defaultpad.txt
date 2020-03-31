@@ -1,0 +1,14 @@
+Bienvenue sur Etherpad !
+
+Ce service est proposé par Montpellier SupAgro - Institut de Florac.
+
+Le principe est simple : vous donnez l'adresse web de cette page à tous les participants et ensuite il suffit d'écrire ! Les contributionsde chacun apparaissent en temps réel sous la couleur de leur auteur et le texte est automatiquement sauvegardé.
+
+Bonnes pratiques :
+ - N’oubliez pas de conserver quelque part l’adresse web (URL) de votre pad.
+ - Renseignez votre nom en cliquant sur l'icone Utilisateur en haut à droite
+ - Pour discuter avec les autres contributeurs, utilisez le chat, en bas à droite
+ - Quand vous écrivez en bas de l'écran, vérifiez que les autresparticipants ne sont pas en train d'écrire la même chose que vous mais plus bas.
+
+Bon travail collaboratif
+
