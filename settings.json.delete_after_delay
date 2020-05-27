@@ -1,8 +1,0 @@
-    "ep_delete_after_delay": {
-      "delay": "${DAD_DELAY:86400}",
-      "loop": "${DAD_LOOP:true}",
-      "loopDelay": "${DAD_LOOP_DELAY:3600}",
-      "deleteAtStart": "${DAD_DELETE_AT_START:true}",
-      "text": "${DAD_TEXT:Contenu supprimé}"
-    }
-}
