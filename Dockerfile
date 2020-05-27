@@ -1,5 +1,11 @@
 FROM etherpad/etherpad:latest
 
+USER root
+RUN apt-get -y update \
+	&& apt-get -y install abiword
+
+USER etherpad
+
 # Installation des plugin
 #########################
 
