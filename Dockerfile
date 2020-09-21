@@ -10,7 +10,7 @@ USER etherpad
 #########################
 
 # TODO check and add ep_table_of_content 
-ARG PLUGINS="ep_author_hover ep_countable ep_delete_empty_pads ep_font_color ep_headings2 ep_pads_stats ep_page_view ep_prompt_for_name ep_spellcheck ep_subscript_and_superscript ep_user_font_size ep_warn_too_much_chars ep_comments_page ep_delete_after_delay"
+ARG PLUGINS="ep_author_hover ep_countable ep_delete_empty_pads ep_font_color ep_headings2 ep_pads_stats ep_page_view ep_prompt_for_name ep_spellcheck ep_subscript_and_superscript ep_user_font_size ep_warn_too_much_chars ep_delete_after_delay"
 RUN for PLUGIN in ${PLUGINS}; \
 	do npm install "${PLUGIN}"; \
 	done
