@@ -1,4 +1,4 @@
-FROM etherpad/etherpad:latest
+FROM etherpad/etherpad:1.8.4
 
 USER root
 RUN apt-get -y update \
