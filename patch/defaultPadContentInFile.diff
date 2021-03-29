@@ -1,0 +1,18 @@
+--- Settings.js	2021-03-29 10:09:27.282383469 +0200
++++ Settings.js	2021-03-29 10:11:36.616429824 +0200
+@@ -116,14 +116,7 @@
+ /**
+  * The default Text of a new pad
+  */
+-exports.defaultPadText = [
+-  'Welcome to Etherpad!',
+-  '',
+-  'This pad text is synchronized as you type, so that everyone viewing this page sees the same ' +
+-      'text. This allows you to collaborate seamlessly on documents!',
+-  '',
+-  'Etherpad on Github: https://github.com/ether/etherpad-lite',
+-].join('\n');
++exports.defaultPadText = fs.readFileSync('defaultpad.txt', 'utf8');
+ 
+ /**
+  * The default Pad Settings for a user (Can be overridden by changing the setting
