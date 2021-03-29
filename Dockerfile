@@ -9,9 +9,9 @@ USER etherpad
 # Installation des plugin
 #########################
 
-# TODO check and add ep_table_of_content ep_page_view 
+# TODO check and add ep_table_of_content ep_page_view ep_warn_too_much_chars
 # ARG PLUGINS="ep_author_hover ep_countable ep_delete_empty_pads ep_font_color ep_headings2 ep_pads_stats ep_page_view ep_prompt_for_name ep_spellcheck ep_subscript_and_superscript ep_user_font_size ep_warn_too_much_chars ep_delete_after_delay"
-ARG PLUGINS="ep_author_hover ep_delete_empty_pads ep_countable ep_font_color ep_headings2 ep_pads_stats ep_prompt_for_name ep_spellcheck ep_subscript_and_superscript ep_user_font_size ep_warn_too_much_chars ep_delete_after_delay ep_table_of_contents"
+ARG PLUGINS="ep_author_hover ep_delete_empty_pads ep_countable ep_font_color ep_headings2 ep_pads_stats ep_prompt_for_name ep_spellcheck ep_subscript_and_superscript ep_user_font_size ep_delete_after_delay ep_table_of_contents"
 RUN for PLUGIN in ${PLUGINS}; \
 	do npm install "${PLUGIN}"; \
 	done
